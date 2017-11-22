@@ -1,0 +1,28 @@
+Q1   What is pneumonoultramicroscopicsilicovolcanoconiosis?
+Ans: Its the longest word in the dictionary and said to mean a lung disease
+    caused by inhaling very fine ash and sand dust.
+
+Q2  According to its man page, what does getrusage do?
+Ans:  getrusage() returns resource usage measures for
+    RUSAGE_CHILDREN, RUSAGE_SELF and RUSAGE_THREAD
+
+Q3  Per that same man page, how many members are in a variable of type struct rusage?
+Ans: 16 members
+
+Q4  Why do you think we pass before and after by reference (instead of by value)
+    to calculate, even though we’re not changing their contents?
+Ans: We pass the refernece so we can still have access to it.
+
+Q5  Explain as precisely as possible, in a paragraph or more, how main goes about
+    reading words from a file. In other words, convince us that you indeed understand
+    how that function’s for loop works.
+Ans: Starts by checking the argc and making sure the right parameters are passed.
+    In the for loop, a char is read from the file and checked that is an alphabet
+    or apostrophy, stored in a variable called word. If word is > 45 discard
+
+Q6  Why do you think we used fgetc to read each word’s characters one at a time
+    rather than use fscanf with a format string like "%s" to read whole words at a time?
+    Put another way, what problems might arise by relying on fscanf alone?
+Ans:
+
+Q7  Why do you think we declared the parameters for check and load as const (which means "constant")?
